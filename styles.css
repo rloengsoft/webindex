@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo o background */
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Personalizar el header o encabezado*/
+header {
+    background: linear-gradient(90deg, #007bff 60%, #0056b3 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Color y espaciado del contenido principal */
+.col-md-8 {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    margin-bottom: 24px;
+}
+
+/* Personalizar la barra lateral */
+.col-md-4 {
+    background: #e9ecef;
+    border-radius: 10px;
+    padding: 20px 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    text-align: center;
+}
+
+/* Footero pie de página personalizado */
+footer {
+    background-color: #23272b !important;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Personalizar la alerta en pantallas pequeñas */
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border-color: #bee5eb;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+/* Mejora la responsividad en los paddings en smartphones */
+@media (max-width: 767.98px) {
+    .col-md-8, .col-md-4 {
+        padding: 12px 8px;
+        margin-bottom: 12px;
+    }
+    header {
+        padding: 1.5rem 0 !important;
+    }
+}
+
+
